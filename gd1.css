@@ -1,0 +1,120 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    max-width: 100%;
+    margin:0 auto;
+
+}  
+
+.container> header{
+    background-image: url('/hinh/fit.jpg');
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 25%;
+}
+
+.container>nav{
+    line-height: 40px;
+    background-color:gray;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.container>article{
+    min-height: 400px;
+    width: 70%;
+    background-color: white;
+    float: left;
+}
+.container>aside{
+   min-height: 400px;
+   width: 50%;
+   background-color: rgb(250, 250, 250);
+   float: left;
+}
+
+.container>footer{
+    
+    line-height: 50px;
+    
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+    height: 300px;
+    width: 100%;
+    background: rgb(204, 156, 122);
+}
+
+.container>nav>a {
+    
+   text-decoration: none;
+    margin: 0 10px; 
+   color:white;
+}
+
+.container>nav>a:hover{
+    color:yellow;
+    text-decoration: underline;
+}
+
+.container>aside>ul>li>a{
+    color:darkblue;
+    font-size: 20px;
+   line-height: 30px;
+}
+
+iframe[name=page]{
+   width: 100%;
+   min-height: 400px;
+}
+
+.container>aside>ul>img:hover{
+
+    color:grey;
+
+}
+
+
+.box1{
+    width: 30%;
+    height: 350px;
+    border: 1px  solid gray;
+    
+    margin: 20px;
+  
+    
+    float: left;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(253, 253, 253);
+    box-shadow: 0 0 5px blue;
+    border: 5px double rgb(0, 0, 0);
+}
+
+P{
+   
+    font-weight: bold;
+
+}
+
+ul{
+    list-style: none;
+}
+
+.box3{
+    width: 100%;
+    height: 80px;
+    background: crimson;
+
+}
+
+.container>footer>a{
+    margin: 30px;
+    
+}
